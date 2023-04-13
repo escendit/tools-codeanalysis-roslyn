@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <PropertyGroup>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <CodeAnalysisRuleSetLocation>$(NuGetPackageRoot)</CodeAnalysisRuleSetLocation>
+    </PropertyGroup>
+</Project>

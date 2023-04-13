@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <ItemGroup>
+        <EditorConfigFiles Include="$([MSBuild]::NormalizePath('$(MSBuildThisFileDirectory)\..\Escendit.Tools.CodeAnalysis.NetAnalyzers.globalconfig'))">
+            <Link>Escendit.Tools.CodeAnalysis.NetAnalyzers.globalconfig</Link>
+            <Visible>false</Visible>
+        </EditorConfigFiles>
+    </ItemGroup>
+</Project>
