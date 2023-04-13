@@ -6,7 +6,7 @@
         <NoWarn>$(NoWarn);NU5128</NoWarn>
         <IsPackable>true</IsPackable>
         <IncludeBuildOutput>false</IncludeBuildOutput>
-        <PackageDescription>Escendit Defaults for Net Analyzers.</PackageDescription>
+        <Description>Enforce our coding practices in your projects with our NuGet package's default settings for Roslyn .NET Analyzers.</Description>
         <PackageTags>analyzers;roslyn;defaults</PackageTags>
     </PropertyGroup>
     <ItemGroup>
