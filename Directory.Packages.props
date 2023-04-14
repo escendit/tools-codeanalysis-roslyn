@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
     <ItemGroup>
-        <PackageReference Include="Escendit.Tools.Branding" Version="1.0.1">
+        <PackageReference Include="Escendit.Tools.Branding" Version="1.0.2">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
