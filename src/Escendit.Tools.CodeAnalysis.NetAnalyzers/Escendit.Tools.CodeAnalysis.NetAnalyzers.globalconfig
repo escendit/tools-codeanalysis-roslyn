@@ -4,10 +4,11 @@ global_level = -1
 csharp_style_namespace_declarations = file_scoped:error
 csharp_using_directive_placement = inside_namespace:error
 
-file_header_template = Copyright (c) Escendit Ltd. All Rights Reserved.\nLicensed under the MIT. See LICENSE.txt file in the solution root for full license information.
+file_header_template = Licensed to the Escendit GmbH under one or more agreements.\nThe Escendit GmbH licenses this file to you under the Apache License 2.0.
 
 dotnet_diagnostic.IDE0065.severity = error
 dotnet_diagnostic.IDE0073.severity = error
+dotnet_diagnostic.IDE0160.severity = none
 dotnet_diagnostic.IDE0161.severity = error
 
 dotnet_diagnostic.CA1000.severity = warning
