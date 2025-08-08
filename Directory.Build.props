@@ -4,4 +4,10 @@
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/escendit/Escendit.Tools.CodeAnalysis.NetAnalyzers</RepositoryUrl>
     </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Escendit.Tools.Branding">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
 </Project>
