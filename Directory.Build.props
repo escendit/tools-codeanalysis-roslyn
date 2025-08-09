@@ -1,7 +1,7 @@
 <Project>
     <PropertyGroup>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/escendit/Escendit.Tools.CodeAnalysis.NetAnalyzers</RepositoryUrl>
+        <RepositoryUrl>https://github.com/escendit/tools-codeanalysis-roslyn</RepositoryUrl>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Escendit.Tools.Branding">
