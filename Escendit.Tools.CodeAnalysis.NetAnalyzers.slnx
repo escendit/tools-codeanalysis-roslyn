@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Escendit.Tools.CodeAnalysis.NetAnalyzers/Escendit.Tools.CodeAnalysis.NetAnalyzers.csproj" />
+  </Folder>
+</Solution>
