@@ -29,8 +29,9 @@ jobs:
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: |
-            9.x
+          global-json-file: global.json
+          cache: 'true'
+          cache-dependency-path: '**/packages.lock.json'
 
       - name: Set Default TAG
         run: echo "TAG=v0.0.0" >> $GITHUB_ENV
