@@ -24,12 +24,14 @@ categories:
     labels:
       - "security"
   - title: "🔄 Dependency Updates"
-    collapse-after: 3
     labels:
       - "dependencies/github-actions"
       - "dependencies/containers"
       - "dependencies/dotnet-sdk"
       - "dependencies/nuget"
+  - title: "🧑🏼‍💻 Development Tooling"
+    labels:
+      - "area/dev-tooling"
 
 version-resolver:
   major:
@@ -49,6 +51,15 @@ template: |
 
   $CONTRIBUTORS
 autolabeler:
+  - label: "area/dev-tooling"
+    files:
+      - ".github/**/*"
+      - ".editorconfig"
+      - ".gitignore"
+      - "Directory.Build.props"
+      - "Directory.Packages.props"
+      - "global.json"
+      - "nuget.config"
   - label: "documentation"
     files:
       - "docs/**/*"
