@@ -1,5 +1,5 @@
 <Project>
     <ItemGroup>
-        <PackageVersion Include="Escendit.Tools.Branding" Version="1.2.0"/>
+        <PackageVersion Include="Escendit.Tools.Branding" Version="2.0.0"/>
     </ItemGroup>
 </Project>
